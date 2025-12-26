@@ -17,8 +17,8 @@ public class Hipotenu {
 	
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner (System.in);
-		double cateto1 = pedirNumero ("Introducir el primer cateto: ", teclado);
-		double cateto2 = pedirNumero ("Introdudir el segundo cateto: ", teclado);
+		double cateto1 = pedirNumero ("Introduzca el primer cateto: ", teclado);
+		double cateto2 = pedirNumero ("Introduzca el segundo cateto: ", teclado);
 		double hipotenusa = calcHipotenusa (cateto1, cateto2);
 		System.out.printf ("La hipotenusa del triángulo mide %.2f", hipotenusa);
 		teclado.close();
